@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import { ExploreCard, TitleText, TypingText } from "../components";
+import { TitleText, TypingText } from "../components/CustomTexts";
+import ExploreCard from "../components/ExploreCard";
 import { exploreWorlds } from "../constants";
+
 import styles from "../styles";
 import { staggerContainer } from "../utils/motion";
 
